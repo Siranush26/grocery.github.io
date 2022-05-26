@@ -1,0 +1,79 @@
+@import url('https://fonts.googleapis.com/css2?family=Macondo&family=Montserrat&family=Oleo+Script+Swash+Caps:wght@700&display=swap');
+body{
+    background-image: url(../img/original.gif);
+    background-size:100%;
+    background-repeat: repeat-y;
+    background-attachment: fixed;
+   
+}
+
+
+
+.container{
+    display:flex;
+    flex-direction: column;
+    background-color: white;
+    border:2px solid #aa80ff;
+    min-height: 97vh;
+    width:600px;
+    margin:auto;
+    border-radius: 20px;
+   
+   
+}
+
+h1{
+    font-family: 'Macondo', cursive;
+    font-family: 'Montserrat', sans-serif;
+    font-family: 'Oleo Script Swash Caps', cursive;
+    text-align: center;
+    font-size: 60px;
+    background: -webkit-linear-gradient(#eee, #aa80ff);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+  
+}
+
+.container_2{
+    text-align: center;
+  
+    
+}
+
+.grocery i{
+    font-size:32px;
+    background: -webkit-linear-gradient(#eee, #aa80ff);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+
+}
+
+.grocery input{
+    font-family:inherit;
+    outline:0;
+    border:0;
+    border-bottom: 3px solid #aa80ff;
+    width:65%;
+    font-size:24px;
+    color:#aa80ff;
+    font-family: 'Macondo', cursive;
+    font-family: 'Montserrat', sans-serif;
+    font-family: 'Oleo Script Swash Caps', cursive;
+}
+
+#for_input{
+    margin-top: 20px;
+}
+
+#all h2{
+    margin-left: 100px;
+    margin-right: 10px;
+    margin-top: 20px;
+    font-size: 32px;
+    color:#aa80ff;
+    font-family: 'Macondo', cursive;
+    font-family: 'Montserrat', sans-serif;
+    font-family: 'Oleo Script Swash Caps', cursive;
+}
